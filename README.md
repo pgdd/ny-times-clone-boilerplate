@@ -55,6 +55,8 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 - TypeScript: Typed JavaScript to ensure maintainability and scalability.
 - TailwindCSS: Custom theme using Tailwind for fast, utility-first styling.
 - Local Fonts: Optimized with next/font/local, using GeistVF and GeistMonoVF from Vercel.
+- Hexagonal Architecture: Implements a clean separation of concerns with core domain logic isolated from external systems like databases and APIs.
+- API Routes: Modular API routes for users and articles.
 - Responsive Design: Tailwind’s responsive utilities ensure the design works across different devices.
 - Alias Import Support: Uses @/ alias to simplify imports throughout the project.
 
@@ -71,12 +73,13 @@ We’ve customized TailwindCSS for a clean, scalable design. The tailwind.config
 We use next/font/local to load custom fonts from the src/app/fonts/ directory.
 
 ## Additional Features Planned
-- Buidling Newspaper website componet with csr and ssr optimisations
-- Seo Optimisation
-- Redis for caching.
-- Elasticsearch for content indexing.
-- PostgreSQL with TypeORM for user subscriptions.
-- Deployment on AWS
+- Hexagonal Architecture: Modular structure for scalable and maintainable code.
+- Newspaper Website Component: CSR and SSR optimizations for content loading.
+- SEO Optimization: Built-in SEO best practices.
+- Redis: For caching high-traffic pages and data.
+- Elasticsearch: For efficient content indexing and search functionality.
+- PostgreSQL with TypeORM: For managing user subscriptions and storing content.
+- Deployment on AWS: Optimized for high-traffic and scalability on AWS services.
 
 ## License
 

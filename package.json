@@ -1,0 +1,26 @@
+{
+  "name": "ny-times-clone-boilerplate",
+  "version": "1.0.0",
+  "description": "A scalable, modular boilerplate for high-traffic news websites, built with Next.js 14, TypeScript, TailwindCSS, and Hexagonal Architecture. Optimized for AWS hosting, it integrates Redis, Elasticsearch, and PostgreSQL with TypeORM to manage subscriptions and content, ensuring clean code and easy customization. ## NY Times Clone Boilerplate",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pgdd/ny-times-clone-boilerplate.git"
+  },
+  "keywords": [
+    "Hexagonal",
+    "Next.js",
+    "Boilerplate",
+    "Scalability"
+  ],
+  "author": "Pierre Giddio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pgdd/ny-times-clone-boilerplate/issues"
+  },
+  "homepage": "https://github.com/pgdd/ny-times-clone-boilerplate#readme"
+}

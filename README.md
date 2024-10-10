@@ -1,6 +1,6 @@
-# ny-times-clone-boilerplate
-A scalable, modular boilerplate for high-traffic news websites, built with Next.js 14, TypeScript, TailwindCSS, and Hexagonal Architecture. Optimized for AWS hosting, it integrates Redis, Elasticsearch, and PostgreSQL with TypeORM to manage subscriptions and content, ensuring clean code and easy customization.
 ## NY Times Clone Boilerplate
+A scalable, modular boilerplate for high-traffic news websites, built with Next.js 14, TypeScript, TailwindCSS, and Hexagonal Architecture. Optimized for AWS hosting, it integrates Redis, Elasticsearch, and PostgreSQL with TypeORM to manage subscriptions and content, ensuring clean code and easy customization.
+
 
 A scalable, modular, and highly customisable boilerplate for building high-traffic news websites inspired by the New York Times. The project is built using Next.js 14, TypeScript, TailwindCSS, and follows best practices for modular hexagonal architecture and clean separation of concerns. It’s optimised for AWS hosting and can easily integrate Redis, Elasticsearch, and PostgreSQL with TypeORM to manage user subscriptions and content.
 

@@ -1,27 +1,38 @@
 {
   "name": "ny-times-clone-boilerplate",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "A scalable, modular boilerplate for high-traffic news websites, built with Next.js 14, TypeScript, TailwindCSS, and Hexagonal Architecture. Optimized for AWS hosting, it integrates Redis, Elasticsearch, and PostgreSQL with TypeORM to manage subscriptions and content, ensuring clean code and easy customization.",
+  "main": "index.js",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    "next": "14.2.13",
-    "react": "^18",
-    "react-dom": "^18"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pgdd/ny-times-clone-boilerplate.git"
   },
+  "keywords": [
+    "Hexagonal",
+    "Next.js",
+    "Boilerplate",
+    "Scalability"
+  ],
+  "author": "Pierre Giddio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pgdd/ny-times-clone-boilerplate/issues"
+  },
+  "homepage": "https://github.com/pgdd/ny-times-clone-boilerplate#readme",
   "devDependencies": {
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "autoprefixer": "^10.4.20",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.13",
-    "postcss": "^8.4.47",
-    "tailwindcss": "^3.4.13",
-    "typescript": "^5"
+    "next": "^14.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "typescript": "^5.0.0",
+    "tailwindcss": "^3.0.0",
+    "postcss": "^8.0.0",
+    "autoprefixer": "^10.0.0"
   }
 }
